@@ -28,3 +28,7 @@ class Sprite {
     ctx.fill()
   }
 }
+
+const box = new Sprite(10, 20, 30, 40, 'blue')
+
+export default Sprite
