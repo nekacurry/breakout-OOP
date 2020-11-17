@@ -1,3 +1,5 @@
+// Ball.js
+import Sprite from './sprite';
 
 // ===========================
 // BALL CLASS
@@ -23,3 +25,5 @@ class Ball extends Sprite {
     ctx.closePath();
   }
 }
+
+export default Ball
